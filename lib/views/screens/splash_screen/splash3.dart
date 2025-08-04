@@ -76,6 +76,7 @@ class SplashScreen3 extends StatelessWidget {
                   child: const Text("Next"),
                 ),
               ),
+              SizedBox(height: 20,)
             ],
           ),
         ),

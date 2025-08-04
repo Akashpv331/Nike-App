@@ -207,7 +207,7 @@ class _SplashScreen2State extends State<SplashScreen2> {
                   ),
                   child: const Text("Next"),
                 ),
-              ),
+              ),SizedBox(height: 20,)
             ],
           ),
         ),

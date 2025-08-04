@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:nike_project/constant/app_constant.dart';
+import 'package:nike_project/views/screens/payment_screen.dart/address.dart';
+import 'package:nike_project/views/screens/payment_screen.dart/tabbar.dart';
 import 'package:nike_project/views/screens/product_section/order_details.dart';
 
 class ProductDetailsPage extends StatelessWidget {
@@ -128,7 +130,10 @@ class ProductDetailsPage extends StatelessWidget {
                 ),
                 Expanded(
                   child: InkWell(onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => OrderDetailsPage(imageUrl:imageUrl,price:price  ,productName:productName ,)));
+                    // Navigator.push(context, MaterialPageRoute(builder: (context) => OrderDetailsPage(imageUrl:imageUrl,price:price  ,productName:productName ,)));
+                    
+  Navigator.push(context, MaterialPageRoute(builder: (context) => CheckoutScreen(),));
+
                   },
                     child: Container(
                       height: Size.height/17,

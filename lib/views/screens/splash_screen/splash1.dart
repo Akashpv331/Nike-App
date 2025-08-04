@@ -72,6 +72,7 @@ class SplashScreen1 extends StatelessWidget {
                   child: const Text("Get Started"),
                 ),
               ),
+              SizedBox(height: 20,)
             ],
           ),
         ),
